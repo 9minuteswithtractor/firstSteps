@@ -1,0 +1,18 @@
+.win {
+    background-color: rgba(0, 255, 0, .3);
+}
+
+.loss {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+.lappie {
+    font-size: 18px;
+    border: 2px solid green;
+    font-weight: normal;
+}
+
+.lappieTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
