@@ -1,22 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+#player {
+	width: 250px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>demo</title>
-  <link rel="stylesheet" href="app.css">
+}
+img  {
+	width: 50px;
+	position: absolute;
+	top: 100px;
+	left: 10px;
+}
 
-</head>
+body {
+	background-color: #a2e1d9;
+}
 
-<body>
-  <img id="player"
-    src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c90d6f40452099.577fb3dd39c81.gif"
-    alt="">
-  <img id="map" src="https://i.ibb.co/NNxhrDT/map.png" alt="">
-  <script src="app.js"></script>
-</body>
-
-</html>
+#footer {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: green;
+	text-align: center;
+	opacity: 50%;
+	font-weight: 400;
+}
